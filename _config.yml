@@ -1,0 +1,8 @@
+title: '个人简历'
+baseurl: ""
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - jekyll-crisp-minimal-resume.gemspec
+  - Rakefile
