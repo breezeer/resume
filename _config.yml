@@ -1,5 +1,6 @@
 title: '个人简历'
 baseurl: ""
+color: "nord"
 exclude:
   - README.md
   - Gemfile
