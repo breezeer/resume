@@ -79,9 +79,11 @@ layout: default
                 <div class="block-subtitle">
                     {{ exp.duration }} | {{ exp.company }}
                 </div>
-                <div class="block-content">
-                    {{ exp.description }}
-                </div>
+                {% for ko in exp.description %}
+                    <div class="block-content">
+                        {{ ko.ko }}
+                    </div>
+                {% endfor %}
             </div>
             {% endfor %}
         </div>
@@ -100,9 +102,11 @@ layout: default
                 <div class="block-subtitle">
                     {{ project.contribution }}
                 </div>
-                <div class="block-content">
-                    {{ project.description }}
-                </div>
+                {% for ki in project.description %}
+                    <div class="block-content">
+                        {{ ki.ki }}
+                    </div>
+                {% endfor %}
             </div>
             {% endfor %}
         </div>

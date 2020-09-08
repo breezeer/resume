@@ -9,6 +9,11 @@ header {
 .name-wrapper {
   padding-top: 1rem;
   padding-bottom: 1rem;
+  margin-right: auto;
+}
+
+.name-img {
+  padding-right: 1.6rem;
 }
 
 .title {
@@ -43,7 +48,10 @@ header {
     display: block;
     padding-bottom: 1rem;
   }
-
+  .name-img {
+    padding-right: 0rem;
+    text-align: center;
+  }
   .name-wrapper {
     text-align: center;
     padding-bottom: 2rem;
