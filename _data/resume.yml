@@ -45,7 +45,7 @@ experience:
       - ko: 6. 使用 Python 编写自动化测试脚本协助测试。
 projects:
   - name: 老干部工作网
-    contribution: 测试 2020/04 - 2020/05
+    contribution: 测试 2020/04 - 2020/08
     description:
       - ki: -- 项目概述
       - ki: 老干部工作网是公司同移动合作的一个政府项目，主要服务于老干部局的相关工作，包括工作网、论坛、管理平台、手机 APP。
