@@ -1,3 +1,3 @@
 # resume
 
-ok.
+Several CVs have been saved here.
