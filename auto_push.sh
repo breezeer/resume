@@ -6,3 +6,6 @@ echo $now
 echo Start.
 git add -A && git commit -m "$now" && git pull && git push
 echo OK!
+
+# 保留窗口
+read
