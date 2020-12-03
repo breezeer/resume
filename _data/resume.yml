@@ -16,7 +16,7 @@ skills:
     items: 能够熟练使用 Axure RP 进行项目原型图制作，运用 Visio 等工具绘制业务流程图，以及使用 XMind 工具制作思维导图。
   - title: 编程相关
     items: 熟悉 Python、Java、JavaScript、SQL 等常用开发语言，并能运用其解决一些工作中的问题。
-  - title: 软件测试
+  - title: 软件测试相关
     items: 掌握软件测试基础理论及测试用例设计方法，了解自动化测试相关工具以及 Docker/Jenkins 等前沿工具。
   - title: 其他
     items: 熟悉其他常用工具的使用，如 Git、Linux、PhotoShop 等。
