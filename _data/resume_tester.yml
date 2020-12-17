@@ -1,6 +1,6 @@
 title: 个人简历
 name: 张夏乐
-jobtitle: 产品专员 产品经理
+jobtitle: 软件测试工程师
 contact:
   - icon: fa-envelope
     text: breeze@outlook.ie
@@ -10,16 +10,16 @@ education:
   - university: 广东海洋大学
     duration: 2014/09 - 2019/06
     location: 软件工程 本科
-    major: 软件工程、数据结构与算法、操作系统、用户界面设计、软件测试
+    major: 软件测试、软件工程、数据结构与算法、操作系统、用户界面设计
 skills:
-  - title: 产品经理相关
-    items: 能够熟练使用 Axure RP 进行项目原型图制作，运用 Visio 等工具绘制业务流程图，以及使用 XMind 工具制作思维导图。
-  - title: 编程相关
-    items: 熟悉 Python、Java、JavaScript、SQL 等常用开发语言，并能运用其解决一些工作中的问题。
   - title: 软件测试相关
-    items: 掌握软件测试基础理论及测试用例设计方法，了解自动化测试相关工具以及 Docker/Jenkins 等前沿工具。
+    items: 熟悉软件测试基础理论和测试用例设计方法，有 APP 测试和接口测试经验，熟悉项目缺陷管理流程。
+  - title: 测试工具相关
+    items: 熟悉 Fiddler、Postman、Jmeter 等常用测试工具的使用，了解自动化测试相关工具以及 Docker/Jenkins 等前沿工具。
+  - title: 编程相关
+    items: 了解 Python、Java、JavaScript、SQL 等常用开发语言，并能运用其解决一些工作中的问题。
   - title: 其他
-    items: 熟悉其他常用工具的使用，如 Git、Linux、PhotoShop 等。
+    items: 熟悉其他常用工具的使用，如 Git、Linux、Axure RP 等。
 experience:
   - title: 软件测试工程师
     duration: 2019/11 - 至今
@@ -73,5 +73,5 @@ projects:
       - ki: -- 工作内容
       - ki: 主要负责 APP 端的功能测试，期间有尝试使用工具录制脚本辅助进行测试。
 evaluation:
-  - description: 本人热爱互联网行业，对软件产品领域有浓厚兴趣。
+  - description: 本人热爱互联网行业，对软件行业品控管理有浓厚兴趣。
   - description: 毕业于软件工程专业，有相关的软件开发经验和测试经验，善于发现细节，对用户体验方面有独到的理解，同时乐于研究技术问题，能够快速学习新兴技术。
