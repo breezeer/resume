@@ -6,14 +6,14 @@ layout: default
     <header>
         <div class="name-wrapper">
             <div id="fullname" class="title">
-                {{ site.data.resume.name }}
+                {{ site.data.resume_pm.name }}
             </div>
             <div id="jobtitle" class="sub-title">
-                {{ site.data.resume.jobtitle }}
+                {{ site.data.resume_pm.jobtitle }}
             </div>
         </div>
         <div id="contact" class="contact">
-            {% for item in site.data.resume.contact %}
+            {% for item in site.data.resume_pm.contact %}
             <div class="contact-item">
                 {% if item.link %}
                 <a href="{{ item.link }}">
@@ -32,7 +32,7 @@ layout: default
             教育经历
         </div>
         <div class="section-content">
-            {% for edu in site.data.resume.education %}
+            {% for edu in site.data.resume_pm.education %}
             <div class="block">
                 <div class="block-title">
                     {{ edu.university }}
@@ -53,7 +53,7 @@ layout: default
             个人技能
         </div>
         <div class="section-content">
-            {% for skill in site.data.resume.skills %}
+            {% for skill in site.data.resume_pm.skills %}
             <div class="block">
                 <div class="block-title">
                     {{ skill.title }}
@@ -71,7 +71,7 @@ layout: default
             工作经历
         </div>
         <div class="section-content">
-            {% for exp in site.data.resume.experience %}
+            {% for exp in site.data.resume_pm.experience %}
             <div class="block">
                 <div class="block-title">
                     {{ exp.title }}
@@ -94,7 +94,7 @@ layout: default
             项目经历
         </div>
         <div class="section-content">
-            {% for project in site.data.resume.projects %}
+            {% for project in site.data.resume_pm.projects %}
             <div class="block">
                 <div class="block-title">
                     {{ project.name }}
@@ -117,7 +117,7 @@ layout: default
             自我评价
         </div>
         <div class="section-content">
-            {% for evaluation in site.data.resume.evaluation %}
+            {% for evaluation in site.data.resume_pm.evaluation %}
             <div class="block">
                 <div class="block-content">
                     {{ evaluation.description }}
