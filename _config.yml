@@ -7,3 +7,4 @@ exclude:
   - Gemfile.lock
   - jekyll-crisp-minimal-resume.gemspec
   - Rakefile
+exclude: [vendor]
